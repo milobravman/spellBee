@@ -10,6 +10,8 @@ function App() {
         console.log(json);
       })
 
+      // this fetch may break if this is not a proxy server in the package.json the proxy is set to localhost:5000 and may not work in production.
+
   // }
 
   return (
