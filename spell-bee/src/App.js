@@ -4,7 +4,7 @@ function App() {
 
   // componentDidMount(){
 
-    fetch('http://localhost:3000/search')
+    fetch('http://localhost:3005/search')
       .then((res) => res.json())
       .then((json) => {
         console.log(json);
@@ -16,8 +16,6 @@ function App() {
     <div className="App">
 
       <p>Spell Bee</p>
-
-
 
     </div>
   );
